@@ -1,0 +1,343 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+@font-face {
+  font-family: Schoolbell;
+  src: url(../fonts/Schoolbell-Regular.ttf);
+}
+main {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+#home {
+  background-color: #145e76;
+  background-image: url(../images/home-bgc.png);
+  position: relative;
+  z-index: 1;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 248px;
+}
+.home-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 45px;
+}
+.im-musa {
+  padding: 16px 30px;
+  font-family: Schoolbell;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+  background: #156783fe;
+  border-radius: 30px;
+}
+.home-left h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+}
+.home-left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #849499;
+}
+.home-left-yellow-links a {
+  padding: 16px 35px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #b6cdd5;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.home-left-yellow-link2 {
+  margin-left: 50px;
+}
+.home-left-yellow-links a:hover {
+  color: white;
+  background-color: #ffa63a;
+}
+
+#statistic {
+  margin-top: -168px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  padding: 64px 54px 92px;
+}
+#statistic h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: #265a6a;
+}
+.statistic-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 79px;
+}
+.statistic-articles span {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 22px;
+  color: #08546c;
+}
+.statistic-articles p {
+  padding-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #08546c;
+}
+#service {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.services-title {
+  text-align: center;
+  margin-top: 200px;
+}
+.services-link {
+  font-family: Schoolbell;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #265a6a;
+}
+.services-h1 {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  color: #08546c;
+}
+.services-card-block {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.services-cards {
+  background: #ffffff;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+  padding: 30px;
+  transition: 0.1s;
+}
+.services-cards button {
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f5fbfc;
+}
+.services-cards h3 {
+  margin: 25px 0 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0f1221;
+}
+.services-cards p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #696969;
+}
+.services-cards:hover {
+  background: #08546c;
+}
+.services-cards:hover h3 {
+  color: white;
+}
+.services-cards:hover button {
+  background: #ffa800;
+}
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+#portfolio h1 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  color: #08546c;
+}
+#portfolio p:not(.portfolio-card-block p) {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #757575;
+}
+.portfolio-card-block {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+}
+
+.portfolio-card h2 {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 29px;
+  color: #08546c;
+}
+.portfolio-card p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+}
+.portfolio-card a {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #08546c;
+}
+.portfolio-card a:hover {
+  color: #ffa800;
+}
+.strelka {
+  margin-left: 10px;
+}
+#blog {
+  background-color: #145e76;
+  background-image: url(../images/home-bgc.png);
+}
+.blog {
+  margin-top: 200px;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-left img {
+    margin-left: -50px;
+}
+.blog-right {
+    left: 30px;
+}
+.blog-right p {
+    margin-top: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.blog-right h4 {
+    margin-top: 33px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #aabfc6;
+}
+@media (max-width: 1187px) {
+  .services-card-block {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 990px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-left,
+  .home-right {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .home-right img {
+    width: 500px;
+    padding-right: 70px;
+  }
+  .container-statistic {
+    padding: 0 !important;
+  }
+  #statistic {
+    border-radius: 0;
+  }
+  .blog {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-right {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .blog-right img {
+    margin-top: 20px;
+  }
+  .blog-left img {
+    background: none;
+    margin-left:50px ;
+  }
+}
+@media (max-width: 800px) {
+  .statistic-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  #statistic h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+  .statistic-articles {
+    margin-top: 100px;
+  }
+  .portfolio-card {
+    /* width: 100%; */
+    text-align: center;
+  }
+  .portfolio-card-img {
+    width: 100%;
+  }
+  .blog-left img {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width:730px) {
+
+}
+@media (max-width:540px) {
+  .home-right img {
+    width: 400px;
+    padding: 0;
+  }
+}
